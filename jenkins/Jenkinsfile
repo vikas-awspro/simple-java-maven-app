@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                echo 'Job scm completed!'
+                echo 'Job scm in bugfix!'
             }
         }
     }
